@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ditarea3.FXMLDocumentController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <HBox layoutX="9.0" layoutY="79.0" prefHeight="182.0" prefWidth="308.0">
+        <children>  
+          <fx:include fx:id="camp" source="../campostextos/campoTexto.fxml" />
+        </children>
+      </HBox>
+      <Button mnemonicParsing="false" onAction="#GenerarContrasena" prefHeight="25.0" prefWidth="150.0" text="Generar contraseña" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="125.0" left="75.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#NuevosDatos" prefHeight="25.0" prefWidth="150.0" text="Nuevos  datos" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="50.0" left="75.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#Salir" prefHeight="25.0" prefWidth="150.0" text="Salir" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Button>
+      <Label text="Contraseña generada" GridPane.columnIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="150.0" left="25.0" />
+         </GridPane.margin>
+      </Label>
+      <Separator orientation="VERTICAL" prefHeight="200.0" GridPane.columnIndex="1" />
+      <Separator orientation="VERTICAL" prefHeight="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="txtContrasena" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets bottom="100.0" left="25.0" right="50.0" />
+         </GridPane.margin>
+      </TextField>
+   </children>
+</GridPane>

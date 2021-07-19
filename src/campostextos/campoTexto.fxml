@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="175.0" prefWidth="211.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="campostextos.CampoTextoController">
+   <children>
+      <TextField fx:id="txtDNI" layoutX="28.0" layoutY="124.0" />
+      <TextField fx:id="txtApellidos" layoutX="28.0" layoutY="79.0" />
+      <TextField fx:id="txtNombre" layoutX="28.0" layoutY="34.0" />
+      <Label layoutX="28.0" layoutY="104.0" text="DNI">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+         <opaqueInsets>
+            <Insets top="50.0" />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="28.0" layoutY="59.0" text="Apellidos">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="14.0" text="Nombre">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
