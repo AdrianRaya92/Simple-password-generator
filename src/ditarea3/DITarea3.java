@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Adrián Raya Hernández 50888999G
+ * @author Adrián Raya Hernández 
  */
 public class DITarea3 extends Application {
     
