@@ -10,7 +10,7 @@ import javafx.scene.control.TextField;
 
 /**
  *
- * @author Adrián Raya Hernández 50888999G
+ * @author Adrián Raya Hernández 
  */
 public class FXMLDocumentController implements Initializable {
 

@@ -14,7 +14,7 @@ import javafx.scene.control.TextField;
 /**
  * FXML Controller class
  *
- * @author Adrian Raya Hernandez 50888999G
+ * @author Adrian Raya Hernandez 
  */
 public class CampoTextoController implements Initializable {
 
